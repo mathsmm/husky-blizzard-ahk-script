@@ -1,13 +1,17 @@
 ﻿; Habilita debug de teclas digitadas
 ; #InstallKeybdHook
 
-; ABNT2 - Remapeia HHKB arrows com shift direito
+; ABNT2 - Remapeia arrows com shift direito
 ;
 ; Segure o shift direito do teclado e as seguinte teclas:
 ; Acento agudo    - Cima
+; Circunflexo     - Baixo
 ; Cedilha         - Esquerda
-; Circuflexo      - Direita
-; Ponto e vírgula - Baixo
+; Fecha colchetes - Direita
+; P               - Home
+; Abre colchetes  - End
+; O               - Page up
+; L               - Page down
 ;
 ; https://kbdlayout.info/kbdbr/scancodes
 ;
@@ -29,6 +33,3 @@ RShift & SC026:: Send {Blind}{RShift up}{PgDn}
 ; RShift & o:: Send {Blind}{RShift up}{Home}
 ; RShift & l:: Send {Blind}{RShift up}{PgUp}
 ; RShift & .:: Send {Blind}{RShift up}{PgDn}
-
-; Remapeia CapsLock como Control Esquerdo
-; CapsLock::Ctrl
