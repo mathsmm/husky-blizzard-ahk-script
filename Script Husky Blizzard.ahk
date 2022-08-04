@@ -1,9 +1,9 @@
 ﻿; Habilita debug de teclas digitadas
 ; #InstallKeybdHook
 
-; ABNT2 - Remapeia arrows com ctrl direito
+; ABNT2 - Remapeia arrows com shift direito
 ;
-; Segure o ctrl direito do teclado e as seguinte teclas:
+; Segure o shift direito do teclado e as seguinte teclas:
 ; Acento agudo    - Cima
 ; Circunflexo     - Baixo
 ; Cedilha         - Esquerda
@@ -15,14 +15,14 @@
 ;
 ; https://kbdlayout.info/kbdbr/scancodes
 ;
-RCtrl & SC01A:: Send {Blind}{RShift up}{Up}
-RCtrl & SC028:: Send {Blind}{RShift up}{Down}
-RCtrl & SC027:: Send {Blind}{RShift up}{Left}
-RCtrl & SC02B:: Send {Blind}{RShift up}{Right}
-RCtrl & SC019:: Send {Blind}{RShift up}{Home}
-RCtrl & SC01B:: Send {Blind}{RShift up}{End}
-RCtrl & SC018:: Send {Blind}{RShift up}{PgUp}
-RCtrl & SC026:: Send {Blind}{RShift up}{PgDn}
+RShift & SC01A:: Send {Blind}{RShift up}{Up}
+RShift & SC028:: Send {Blind}{RShift up}{Down}
+RShift & SC027:: Send {Blind}{RShift up}{Left}
+RShift & SC02B:: Send {Blind}{RShift up}{Right}
+RShift & SC019:: Send {Blind}{RShift up}{Home}
+RShift & SC01B:: Send {Blind}{RShift up}{End}
+RShift & SC018:: Send {Blind}{RShift up}{PgUp}
+RShift & SC026:: Send {Blind}{RShift up}{PgDn}
 
 ; ANSI - Remapeia HHKB arrows com shift direito
 ; RShift & [:: Send {Blind}{RShift up}{Up}
